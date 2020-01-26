@@ -43,7 +43,7 @@ def old_range(a, b):
 # ex. 5
 
 name_password = {
-    'Vasyliy' : 123456,
+    'Vasyliy' : '123456',
     '123ya' : '123ya',
     'Angelina' : 'porosenochek'
     }
