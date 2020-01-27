@@ -66,8 +66,8 @@ print(new_dict)
 
 # ex. 7
 
-dict1 = {'cat' : 'Vaska', 'second_cat' : 'Tishka'}
-dict2 = {'dog' : 'Robert', 'hamster' : 'Marfusha', 'cat': 'Murzik'}
+dict1 = {'cat': 'Vaska', 'second_cat': 'Tishka'}
+dict2 = {'dog': 'Robert', 'hamster': 'Marfusha', 'cat': 'Murzik'}
 
 for key1, value1 in dict1.items():
     for key2, value2 in dict2.items():
@@ -79,12 +79,12 @@ print(dict1)
 # ex. 8
 
 salary = {
-    'salary_jan' : 12020, 
-    'salary_feb' : 45000, 
-    'salary_mar' : 68000,
-    'salary_apr' : 15900,
-    'salary_may' : 28200,
-    'salary_jun' : 41000
+    'salary_jan': 12020, 
+    'salary_feb': 45000, 
+    'salary_mar': 68000,
+    'salary_apr': 15900,
+    'salary_may': 28200,
+    'salary_jun': 41000
     }
 salary = sorted(salary.values())
 salary_i_like = salary[-1:-4:-1]

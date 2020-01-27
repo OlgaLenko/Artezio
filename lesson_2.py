@@ -30,22 +30,25 @@ def fact(a):
         result *= i
         i += 1
     print(result)
+fact(45)
 
 # ex. 4
 
 def old_range(a, b):
     range_list = []
-    for i in range(a, b):
+    i = a
+    while i < b:
         range_list += [i]
         i += 1
     print(range_list)
+old_range(-8, 2)
 
 # ex. 5
 
 name_password = {
-    'Vasyliy' : '123456',
-    '123ya' : '123ya',
-    'Angelina' : 'porosenochek'
+    'Vasyliy': '123456',
+    '123ya': '123ya',
+    'Angelina': 'porosenochek'
     }
     
 name = input("Введите имя пользователя ")
