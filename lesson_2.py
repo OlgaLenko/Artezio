@@ -34,14 +34,15 @@ fact(45)
 
 # ex. 4
 
-def old_range(a, b):
+def old_range(a, b, c=1):
     range_list = []
     i = a
     while i < b:
         range_list += [i]
-        i += 1
+        i += c
     print(range_list)
 old_range(-8, 2)
+old_range(2, 26, 3)
 
 # ex. 5
 
